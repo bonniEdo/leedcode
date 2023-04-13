@@ -11,7 +11,7 @@ var romanToInt = function (s) {
     const countV = (String(s).split('').filter(x => x === "V").length) * 5
     const countM = (String(s).split('').filter(x => x === "M").length) * 1000
     const countC = (String(s).split('').filter(x => x === "C").length) * 100
-    const countD = (String(s).split('').filter(x => x === "C").length) * 500
+    const countD = (String(s).split('').filter(x => x === "D").length) * 500
     const countX = (String(s).split('').filter(x => x === "X").length) * 10
     let countIV = 0
     let countIX = 0
