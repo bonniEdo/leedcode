@@ -1,0 +1,4 @@
+var createCounter = function (init) {
+
+
+};

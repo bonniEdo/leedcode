@@ -8,10 +8,10 @@ var climbStairs = function (n) {
         return 2
     } else {
         console.log((Math.floor(n / 2) ** Math.floor(n / 2)))
+        console.log(step1)
 
         return 1 + (Math.floor(n / 2) ** Math.floor(n / 2) * (n % 2))
 
-        c
 
     }
 
